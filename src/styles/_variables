@@ -1,0 +1,9 @@
+$spacing: 10px;
+
+$color-gray: #f1f0f0;
+$color-gray-dark: #919791;
+$color-green: #3ea535;
+$color-green-light: #c4e4c2;
+$color-green-lighter: #ebf6ea;
+$color-orange: #e94f0e;
+$color-orange-dark: #b8400d;

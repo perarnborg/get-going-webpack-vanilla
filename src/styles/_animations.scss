@@ -1,0 +1,30 @@
+@-moz-keyframes dropIn {
+    0% {
+        -moz-transform: translate3d(0px, -80px, 0px);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translate3d(0px, 0px, 0px);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes dropIn {
+    0% {
+        -webkit-transform: translate3d(0px, -80px, 0px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        opacity: 1;
+    }
+}
+@keyframes dropIn {
+    0% {
+        transform: translate3d(0px, -80px, 0px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 1;
+    }
+}
