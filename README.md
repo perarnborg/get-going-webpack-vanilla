@@ -1,3 +1,7 @@
 # Get Going Webpack Vanilla
 
-Vanilla ES2015 javascript. Templating with doT. Bundled with webpack.
+Vanilla ES2015 javascript.
+
+* Templating with doT.
+* Promises support with promiscuous.
+* Bundled with webpack.
