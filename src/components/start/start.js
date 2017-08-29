@@ -1,5 +1,5 @@
-import * as resultsApi from '../api/results';
-import * as templating from '../utils/templating-helpers';
+import * as resultsApi from '../../api/results';
+import * as templating from '../../utils/templating-helpers';
 
 export const render = (containerNode, data) => {
     resultsApi.listResults()

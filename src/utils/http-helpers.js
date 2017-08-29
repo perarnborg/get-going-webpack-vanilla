@@ -1,5 +1,7 @@
+import * as promise from 'promiscuous';
+
 export const makeRequest = function(method, url) {
-  return new Promise(function (resolve, reject) {
+  return new promise.default(function (resolve, reject) {
     var xhr = new XMLHttpRequest();
     xhr.open(method, url);
     xhr.onload = function () {
