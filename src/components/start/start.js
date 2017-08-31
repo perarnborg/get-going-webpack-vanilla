@@ -1,10 +1,12 @@
 import * as resultsApi from '../../api/results';
 import * as templating from '../../utils/templating-helpers';
 
+export const template = require('html-loader!./start.html');
+
 export const render = (containerNode, def) => {
     resultsApi.listResults()
         .then((results) => {
-            containerNode.innerHTML = templating.render(require('html-loader!./start.html'), def, results);
+            containerNode.innerHTML = templating.render(template, def, results);
             eventListeners();
         });
 }
